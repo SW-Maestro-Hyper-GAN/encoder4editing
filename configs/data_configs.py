@@ -37,7 +37,7 @@ DATASETS = {
 		'train_target_root': dataset_paths['cats_train'],
 		'test_source_root': dataset_paths['cats_test'],
 		'test_target_root': dataset_paths['cats_test'],
-	}
+	},
 
 	'my_data_encode': {
         'transforms': transforms_config.EncodeTransforms,
